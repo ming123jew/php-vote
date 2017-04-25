@@ -19,7 +19,7 @@ class Base {
 		$this->param    = $this->request->param();
 		$this->post     = $this->request->post();
 		$this->id       = isset($this->param['id'])?intval($this->param['id']):'';
-		$this->data     = ['pach'=>VOTE_VIEW_PATH,'static'=>VOTE_STYLE_PATH];
+		$this->data     = ['pach'=>VOTE_VIEW_HOME_PATH,'static'=>VOTE_STYLE_PATH];
 		$this->shareData = self::_WxShareCode();
 		
 	}

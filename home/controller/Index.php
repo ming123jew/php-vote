@@ -11,7 +11,7 @@ class Index extends Base{
 
     public function __construct($request){
         parent::__construct($request);
-        $this->shareData = $this->_getShareJSTicket();
+
     }
 
 
@@ -20,6 +20,7 @@ class Index extends Base{
      * @return multitype:string multitype:
      */
     public function Index(){
+        return ['code'=>0,'msg'=>'yes'];
     }
 }
 
