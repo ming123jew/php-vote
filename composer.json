@@ -1,5 +1,5 @@
 {
-    "name": "ming123jew/basedemo",
+    "name": "ming123jew/vote",
     "description": "The ThinkPHP5 phpexcel Package.",
     "license": "Apache-2.0",
     "authors": [
@@ -13,7 +13,7 @@
     },
     "autoload": {
         "psr-4": {
-            "basedemo\\": ""
+            "vote\\": ""
         }
     }
 }
