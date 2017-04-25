@@ -1,2 +1,2 @@
-# magazine
-php magazine
+# vote
+php vote
